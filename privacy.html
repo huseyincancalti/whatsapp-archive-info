@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="tr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Veri kullanımı — WhatsApp Archive Manager</title>
+<style>body{max-width:720px;margin:64px auto;padding:0 24px;font:17px/1.65 system-ui;color:#242424}a{color:#17684d}h1{line-height:1.2}</style>
+<h1>Veri kullanımı ve privacy policy</h1>
+<p>Son güncelleme: 13 Ekim 2026. Bu metin kişisel WhatsApp Archive Manager uygulamasının veri kullanımını açıklar.</p>
+<h2>İşlenen veriler</h2>
+<p>Uygulama, kullanıcının seçtiği WhatsApp backup dosyalarındaki sohbetleri, mesajları, kişi bilgilerini ve media dosyalarını işler. Google Drive bağlantısı için OAuth token ve client bilgilerini; bağlı hesabı göstermek için Google hesap kimliği ve e-posta adresini kullanır.</p>
+<h2>Saklama ve aktarım</h2>
+<p>Yerel veriler kullanıcının PC’sinde application-managed klasörlerde saklanır. Google token, client secret, WhatsApp key ve repository parolası recovery parolasıyla korunan encrypted vault’ta saklanır. Yerel açılmış database ve Viewer cache dosyaları bu vault tarafından encrypted değildir.</p>
+<p>Google Drive’a gönderilen arşiv içerikleri ve vault istemci tarafında encrypted olarak saklanır. Arşiv metadata’sının bazı bölümleri, örneğin recovery settings dosyası, plaintext olabilir. Kullanıcı işlemi başlattığında uygulama verileri kullanıcının Google hesabındaki dedicated arşiv klasörüne aktarır. Başarılı havuz yüklemesinden sonra recovery kit ayrıca kaydedilir ve geri okunarak doğrulanır.</p>
+<h2>Google erişimi</h2>
+<p>Uygulamanın kullandığı Drive OAuth scope’u dosya okuma ve yazma erişimi sağlar; teknik kapsam tüm Drive dosyalarına erişebilir. Uygulamanın arşiv işlemleri kendi dedicated klasörü içinde çalışır. Google şifresi uygulamaya girilmez; giriş ve izin Google ekranında yapılır. Kullanıcı Google hesabındaki uygulama erişimini iptal edebilir.</p>
+<h2>Paylaşım ve silme</h2>
+<p>Uygulama bir arşiv paylaşım veya public yayınlama hizmeti sunmaz. Mesajlar ve media dosyaları görüntüleme amacıyla public bir web sunucusuna yüklenmez. Otomatik analytics veya bug-report yükleme özelliği yoktur. Google Drive’ın kendi hizmet koşulları ve kullanıcı tarafından yapılan paylaşım ayarları ayrıca geçerlidir.</p>
+<p>Uygulamadaki cleanup işlemleri önizleme ve kullanıcının açık onayını gerektirir. Recovery kit sohbetlerin tamamını içermez; arşiv verisi ayrıca mevcut olmalıdır. Kullanıcı uygulama verilerini saklama ve kaldırma kararını kendi PC’si ve Google hesabında verir.</p>
+<p><a href="index.html">Uygulama tanıtımına dön</a></p>
+</html>
